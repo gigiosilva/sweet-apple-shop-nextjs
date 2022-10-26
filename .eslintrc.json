@@ -13,6 +13,14 @@
     "react/require-default-props": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "import/prefer-default-export": "off",
-    "no-param-reassign": "off"
-  }
+    "no-param-reassign": "off",
+    "consistent-return": "off"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "next.config.js",
+    "next-env.d.ts",
+    "public/",
+    "src/pages/api/"
+  ]
 }
