@@ -14,7 +14,9 @@
     "@typescript-eslint/no-use-before-define": "off",
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "react/no-children-prop": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   },
   "ignorePatterns": [
     "node_modules/",
