@@ -13,6 +13,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import RemixLink from 'next/link';
+import NextImage from 'next/image';
 import type { Product } from '../../models/Product';
 import { Rating } from './Rating';
 import { PriceTag } from './PriceTag';
@@ -38,8 +39,11 @@ export function ProductCard(props: Props) {
       <Box position="relative">
         <AspectRatio ratio={4 / 3}>
           <Image
+            as={NextImage}
             src={image}
             alt={name}
+            width="350px"
+            height="300px"
             draggable="false"
             cursor="pointer"
             fallback={<Skeleton />}
