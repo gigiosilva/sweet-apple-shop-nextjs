@@ -16,7 +16,8 @@
     "no-param-reassign": "off",
     "consistent-return": "off",
     "react/no-children-prop": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/no-array-index-key": "off"
   },
   "ignorePatterns": [
     "node_modules/",
